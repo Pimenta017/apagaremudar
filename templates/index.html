@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block titulo %}
+<title>Index</title>
+{% endblock %}
+
+{% block conteudo %}
+<h1>{% if usr %}, {{ usr }}{% endif %}</h1>
+
+<h3>
+<img src="/static/images/Heroes&Generals fundo.jpg">
+</h3>
+<html>
+<head>
+    <style>
+
+        div.ex2 {
+            position: absolute;
+            right: 100px;
+            top: 50px;
+            border: 10px solid red;
+            background-color: black;
+            }
+    </style>
+</head>
+<body>
+
+{% endblock %}
